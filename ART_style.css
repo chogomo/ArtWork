@@ -111,23 +111,44 @@
     height: 300px;
     background-attachment:fixed;
     margin-bottom: 80px;
+    font-size: 70px;
+    color: #fff;
+    line-height: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.WorkArt img{
+    width:70%;
+    object-fit: contain;
+    margin: -50px;
+}
+.WorkArt .pic2{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.WorkArt .pic2 img{
+    height: 10%;
 }
 .atpic1{
-    background: url(image/myart2.jpg) no-repeat center/cover;
+    background-blend-mode:multiply;
+    background:rgb(0, 0, 0,0.3) url(image/myart2.jpg) no-repeat center/cover;
 }
 .atpic2{
-    background: url(image/america5.jpg) no-repeat center/cover;
+    background-blend-mode:multiply;
+    background:rgb(0, 0, 0,0.3) url(image/america5.jpg) no-repeat center/cover;
 }
 .atpic3{
-    background: url(image/japan1.jpg) no-repeat center/cover;
+    background-blend-mode:multiply;
+    background:rgb(0, 0, 0,0.3) url(image/japan2.png) no-repeat center/cover;
 }
 .atpic4{
-    background: url(image/work1.jpg) no-repeat center/cover;
+    background-blend-mode:multiply;
+    background:rgb(0, 0, 0,0.3) url(image/work1.JPG) no-repeat center/cover;
 }
 .ArtWork div{
     text-align: center;
 }
 .ArtWork img{
-    height: 98vh;
+    height: 95vh;
     margin: 0 10px 60px;
 }
